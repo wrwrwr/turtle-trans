@@ -13,23 +13,23 @@ Examples
 
 .. code:: python
 
-    from turtletrans.es import Tortuga
+    >>> from turtletrans.es import Tortuga
 
-    t = Tortuga()
-    t.adelante(100)
-    t.derecho(90)
-    t.haciaatrás(40)
-    t.izquierda(10)
+    >>> t = Tortuga()
+    >>> t.adelante(100)
+    >>> t.derecho(90)
+    >>> t.haciaatrás(40)
+    >>> t.izquierda(10)
 
 .. code:: python
 
-    from turtletrans.pl import Żółw
+    >>> from turtletrans.pl import Żółw
 
-    ż = Żółw()
-    ż.naprzód(30)
-    ż.prawo(90)
-    ż.wstecz(40)
-    ż.lewo(10)
+    >>> ż = Żółw()
+    >>> ż.naprzód(30)
+    >>> ż.prawo(90)
+    >>> ż.wstecz(40)
+    >>> ż.lewo(10)
 
 .. comment (not yet):
 
@@ -40,4 +40,4 @@ Examples
 
         pip install turtle-trans
 
-    Requires a recent version of Python (> 3).
+Requires a recent version of Python (> 3).
