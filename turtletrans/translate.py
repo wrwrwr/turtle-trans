@@ -1,6 +1,14 @@
 """
 Some common utilities.
 """
+from turtle import Turtle
+
+
+def turtle_subclass(name):
+    """
+    Creates a subclass of Turtle with the given name.
+    """
+    return type(name, (Turtle,), {})
 
 
 def translate_methods(cls, translations):

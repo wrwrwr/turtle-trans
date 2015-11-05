@@ -1,12 +1,10 @@
-from turtle import Turtle
-
-from .translate import translate_methods
+from .translate import translate_methods, turtle_subclass
 
 # Translate the class name itself.
-Tortuga = Turtle
+Żółw = Żółwik = turtle_subclass("Żółw")
 
 # Original method --> list of aliases (order as in turtle docs).
-translate_methods(Turtle, {
+translate_methods(Żółw, {
     # Turtle motion.
     'forward': ("naprzód", "np", "doprzodu", "dp"),
     'back': ("wstecz", "ws", "dotyłu", "dt"),
