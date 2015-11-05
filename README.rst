@@ -26,7 +26,7 @@ Examples
     >>> from turtletrans.pl import Żółw
 
     >>> ż = Żółw()
-    >>> ż.naprzód(30)
+    >>> ż.naprzód(100)
     >>> ż.prawo(90)
     >>> ż.wstecz(40)
     >>> ż.lewo(10)
