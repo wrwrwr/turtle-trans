@@ -8,10 +8,10 @@ Tortuga = Turtle
 # Original method --> list of aliases (order as in turtle docs).
 translate_methods(Turtle, {
     # Turtle motion.
-    'forward': ("adelante", "ad"),
-    'back': ("haciaatrás", "ha"),
-    'right': ("derecho", "dr"),
-    'left': ("izquierda", "iz"),
+    'forward': ("naprzód", "np", "doprzodu", "dp"),
+    'back': ("wstecz", "ws", "dotyłu", "dt"),
+    'right': ("naprawo", "prawo", "prawa", "pw"),
+    'left': ("nalewo", "lewo", "lewa", "lw"),
     'goto': ("idźdo", "napoz", "zmieńpoz", "zpoz"),
     'setx': ("zmieńx", "zx"),
     'sety': ("zmieńy", "zy"),
