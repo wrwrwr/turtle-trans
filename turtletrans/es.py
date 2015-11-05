@@ -6,7 +6,6 @@ from .translate import translate_methods
 Tortuga = Turtle
 
 # Original method --> list of aliases (order as in turtle docs).
-# TODO: Please correct and fill in :-)
 translate_methods(Turtle, {
     # Turtle motion.
     'forward': ("adelante", "ad"),

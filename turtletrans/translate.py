@@ -2,6 +2,7 @@
 Some common utilities.
 """
 
+
 def translate_methods(cls, translations):
     """
     Creates aliases for method names.
